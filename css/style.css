@@ -1,0 +1,25 @@
+.header_top {
+  height: 70px;
+  line-height: 70px;
+}
+.header_top img {
+  height: 20px;
+}
+
+
+.list_style li a {
+  text-decoration: none;
+  color: black;
+}
+.list_style li a:hover {
+  color: #006AFF;
+}
+
+.header_top .button {
+  color: #006AFF;
+  border: 1px solid #006AFF;
+}
+.header_top .button:hover {
+  color: white;
+  background-color: #006AFF;
+}
