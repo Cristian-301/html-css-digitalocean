@@ -1,3 +1,18 @@
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1 {
+  font-size: 57px;
+  padding-right: 55px;
+  color: white;
+}
+
+p {
+  font-size: 20px;
+}
+
+/* barra di navigazione */
 .header_top {
   height: 60px;
   line-height: 60px;
@@ -29,6 +44,69 @@
   line-height: 60px;
   color: #006AFF;
 }
+
+/* jumbotron */
+.header_bottom {
+  background-image: url("https://www.digitalocean.com/static/bg-home-hero-3-bb4b33b77274db09b969f629ad81c4d5.svg");
+  background-size: cover;
+  padding: 50px 0;
+}
+#title_paragraph {
+  color: lightgray;
+  padding-right: 65px;
+}
+
+.account {
+  padding: 10px 15px;
+  background-color: white;
+  border-radius: 5px;
+}
+.account p {
+  font-size: 12px;
+}
+.account p a {
+  text-decoration: underline;
+}
+
+#blue_title {
+  margin-top: 5px;
+  color: #006AFF;
+}
+
+.input_padding {
+  padding: 20px 6px;
+
+}
+.input_padding::placeholder {
+  font-size: 16px;
+  color: grey;
+}
+
+.account_btn {
+  width: 100%;
+  margin-bottom: 15px;
+  background-color: #579AFF;
+  border: none;
+}
+.account_btn:hover {
+  background-color: #1633FF;
+}
+
+.google_btn {
+  width: 100%;
+  margin-bottom: 15px;
+  color: grey;
+  font-weight: 450;
+  border: none;
+  box-shadow: 2px 2px lightgrey;
+  position: relative;
+}
+.google_btn img {
+  width: 20px;
+  position: absolute;
+  left: 10px;
+}
+
 
 @media screen and (max-width: 1200px) {
 
