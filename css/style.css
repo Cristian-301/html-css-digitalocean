@@ -175,7 +175,7 @@ h5 {
 }
 
 .deploy_text {
-  font-size: 12px;
+  font-size: 15px;
   color: #7C869F;
   font-weight: 450;
 }
@@ -204,6 +204,7 @@ h5 {
 #designed img {
   height: 350px;
 }
+
 .chev {
   margin: 0 15px;
   color: #5D6B8A;
@@ -213,6 +214,7 @@ h5 {
 #chev_right {
   color: #031C4E;
 }
+
 #designed_bottom p {
   margin-bottom: 5px;
   font-size: 14px;
@@ -221,6 +223,22 @@ h5 {
 #designed_bottom i {
   font-size: 12px;
   color: #006AFF;
+}
+
+/* <-- features --> */
+#features {
+  padding: 50px 0;
+}
+#features h2 {
+  margin-bottom: 30px;
+  color: #122957;
+}
+#features a {
+  text-decoration: none;
+  color: #2C81FF;
+}
+#features a:hover {
+  color: #1633FF;
 }
 
 
@@ -311,5 +329,15 @@ h5 {
   .chev {
     display: none;
   }
+
+  /* <-- features --> */
+  #features h2 {
+    font-size: 27px;
+  }
+  #features img {
+    margin-top: 30px;
+  }
+  #features h2 {
+    margin-bottom: 0px;
 
 }
