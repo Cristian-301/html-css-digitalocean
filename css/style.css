@@ -16,7 +16,6 @@ p {
 .header_top {
   height: 60px;
   line-height: 60px;
-  /* border: 1px solid black; */
 }
 .header_top img {
   height: 20px;
@@ -106,6 +105,38 @@ p {
   position: absolute;
   left: 10px;
 }
+
+
+/* corpo della pagina */
+  /* <-- customers --> */
+#customers {
+  padding: 30px 0;
+  background-color: #F3F5F9;
+}
+#customers h4 {
+  font-size: 16px;
+  color: #7A859F;
+}
+
+#logos_container {
+  margin: 40px 0;
+  width: 100%;
+}
+
+.logo_col {
+  height: 60px;
+}
+
+
+#customer_story a {
+  text-decoration: none;
+  color: #438DFD;
+  font-weight: 450;
+}
+#customer_story a:hover {
+  color: #1633FF;
+}
+
 
 
 @media screen and (max-width: 1200px) {
