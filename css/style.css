@@ -101,7 +101,7 @@ p {
   position: relative;
 }
 .google_btn img {
-  width: 20px;
+  height: 20px;
   position: absolute;
   left: 10px;
 }
@@ -124,9 +124,11 @@ p {
 }
 
 .logo_col {
-  height: 60px;
+  height: 90px;
 }
-
+img {
+  height: 100%;
+}
 
 #customer_story a {
   text-decoration: none;
@@ -137,7 +139,50 @@ p {
   color: #1633FF;
 }
 
+/* <-- deploy and scale --> */
+#deploy {
+  padding: 50px 0;
+}
+#deploy p {
+  color: #8D96AC;
+}
 
+.wrapper {
+  width: 80%;
+  margin: auto;
+  margin-top: 40px;
+  padding: 20px 0;
+}
+
+#deploy_list {
+  padding: 0;
+  list-style: none;
+}
+#deploy_list li {
+  padding: 8px;
+  border-left: 2px solid #CCCCCC;
+  font-size: 18px;
+
+}
+#deploy_list li a {
+  text-decoration: none;
+  color: #7C869F;
+}
+
+h5 {
+  font-size: 16px;
+  color: #031C4E;
+}
+
+.deploy_text {
+  font-size: 12px;
+  color: #7C869F;
+  font-weight: 450;
+}
+
+#bottom_row {
+  margin-top: 20px;
+}
 
 @media screen and (max-width: 1200px) {
 
@@ -160,12 +205,54 @@ p {
     font-size: 47px;
     padding: 0;
   }
+
+  /* customers */
+  .logo_col {
+    height: 55px;
+  }
+
+  /* deploy and scale */
+  .deploy_text {
+    font-size: 16px;
+  }
+
 }
 
-@media screen and (max-width: 768px) {
+@media screen and (max-width: 767px) {
+
+  /* jumbotron */
+  h1 {
+    font-size: 30px;
+  }
+
+  #title_paragraph {
+    padding-right: 0;
+  }
 
   .account h2 {
     font-size: 25px;
+  }
+
+  /* customers */
+  #customers h4 {
+    font-size: 12px;
+  }
+
+  /* deploy and scale */
+  .wrapper {
+    width: 100%;
+  }
+
+  #deploy_list {
+    margin-bottom: 20px;
+  }
+
+  #deploy h2 {
+    font-size: 26px;
+  }
+
+  #deploy p {
+    font-size: 15px;
   }
 
 }
