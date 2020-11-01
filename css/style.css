@@ -12,6 +12,14 @@ p {
   font-size: 20px;
 }
 
+.dark_title {
+  color: #122957;
+}
+
+.light_title {
+  color: white;
+}
+
 /* barra di navigazione */
 .header_top {
   height: 60px;
@@ -193,9 +201,7 @@ h5 {
   padding: 50px 0;
   background-color: #F3F5F9;
 }
-#designed h2 {
-  color: #122957;
-}
+
 #designed .container p {
   margin-top: 20px;
   margin-bottom: 50px;
@@ -230,10 +236,10 @@ h5 {
 #features {
   padding: 50px 0;
 }
-#features h2 {
-  margin-bottom: 30px;
-  color: #122957;
+#features > .container > .row {
+  margin-top: 30px;
 }
+
 #features a {
   text-decoration: none;
   color: #2C81FF;
@@ -247,10 +253,7 @@ h5 {
   padding: 50px 0;
   background-image: linear-gradient(#0047C5, #001E99);
 }
-#service h2 {
-  color: white;
-  text-align: center;
-}
+
 
 .city_speed {
   border-bottom: 1px solid white;
@@ -278,9 +281,9 @@ h5 {
   padding: 50px 0;
   background-color: #F3F5F9;
 }
-#teams h2 {
-  margin-bottom: 80px;
-  color: #122957;
+
+#chev_container{
+  margin-top: 80px;
 }
 
 #slide_container {
@@ -315,9 +318,7 @@ h5 {
   padding: 50px 0;
   background-image: linear-gradient(#0047C5, #001E99);
 }
-#start h2 {
-  color: white;
-}
+
 #start button {
   margin-top: 20px;
   font-size: 18px;
@@ -367,6 +368,45 @@ footer h5 {
   color: white;
 }
 
+
+/* shark widget */
+#shark_widget_container {
+height: 50px;
+position: fixed;
+bottom: 20px;
+right: 20px;
+}
+#shark_widget_container > img {
+  display: inline-block;
+  height: 100%;
+}
+
+#speech_bubble {
+  display: inline-block;
+  height: 100%;
+  width: 280px;
+  margin-right: 20px;
+  vertical-align: middle;
+  position: relative;
+  border-radius: 5px;
+  background-color: white;
+}
+#speech_bubble:after {
+  content: '';
+	position: absolute;
+	right: 0;
+	top: 50%;
+	border: 10px solid transparent;
+	border-left-color: white;
+	border-right: 0;
+	border-bottom: 0;
+	margin-right: -10px;
+}
+#speech_bubble p {
+  font-size: 14px;
+  padding-top: 5px;
+  padding-left: 5px;
+}
 
 @media screen and (max-width: 1200px) {
 
@@ -465,13 +505,12 @@ footer h5 {
   /* features */
   #features h2 {
     font-size: 27px;
+    margin-bottom: 0px;
   }
   #features img {
     margin-top: 30px;
   }
-  #features h2 {
-    margin-bottom: 0px;
-  }
+
 
   /* service */
   #service h2 {
